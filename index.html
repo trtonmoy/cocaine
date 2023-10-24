@@ -39,6 +39,19 @@
           margin: 0 auto;
         }
       }
+      @media screen and (max-width: 768px) {
+        .vid-file {
+          width: 100%;
+          padding: 5px;
+        }
+      }
+      @media screen and (max-width: 768px) {
+        .image-3 {
+          width: 100%;
+          height: 450px;
+          padding: 5px;
+        }
+      }
     </style>
   </head>
   <body class="body" style="background-color: #7fcb61; background-image: none">
@@ -77,14 +90,7 @@
       </div>
     </section>
     <section style="text-align: center" class="section-2">
-      <img
-        style="height: 750px"
-        src="/images/loog.jpg"
-        loading="lazy"
-        sizes="100vw"
-        alt=""
-        class="image-3"
-      />
+      <img src="/images/loog.jpg" loading="lazy" alt="" class="image-3" />
     </section>
     <section
       data-w-id="af71b0a4-ac7e-8d61-4e10-c7d2f6047327"
@@ -100,10 +106,11 @@
           to make trading fun again.<br />
         </p>
         <video
+          class="vid-file"
           controls
           loop
           autoplay
-          width="550"
+          width="550px"
           src="./images/cocaine is a hell of a drug(360P).mp4"
         ></video>
         <div
